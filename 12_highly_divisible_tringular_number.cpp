@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int T;
     cin >>T;
-    ull max_limit = 5e5;
+    ull max_limit = 1e5;
     vector<int> factorCount(max_limit+1,0);
     factorCount[1] = 1;
     for(int num=2;num<max_limit;num++){
